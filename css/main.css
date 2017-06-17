@@ -160,8 +160,12 @@ header{
   width: 1037px;
   height: 100%;
   border: 1.5px solid #dedede;
-  display: inline-block;
+  display: none;
   padding-top: 67px;
+}
+
+.show{
+  display: inline-block;
 }
 
 .content img {
