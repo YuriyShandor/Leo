@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  /*border: 3px solid red;*/
+  /*border: 1px solid red;*/
 }
 
 .container{
@@ -22,31 +22,30 @@ body {
 
 header{
   background: url(../img/background.png) no-repeat top center / cover;
-  height: 500px;
+  height: 488px;
   width: 100%;
 }
 
 .logo_menu {
-  display: inline-block;
+  display: inline-flex;
   vertical-align: top;
   margin-top: 56px;
   width: 1024px;
 }
 
 .logo {
-  display: inline-block;
   vertical-align: top;
   margin-left: 88px;
 }
 
 .menu {
-  width: calc(100% - 316px);
-  display: inline-block;
-  text-align: right;
+  width: calc(100% - 522px);
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
 }
 
 .menu a {
-  margin-left: 57px;
   color: #f3f5f6;
   text-decoration: none;
   font-size: 22px;
