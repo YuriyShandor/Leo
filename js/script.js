@@ -1,4 +1,7 @@
 $(document).ready(function(){
+  $(".icon:nth-child(2)").addClass("icon_bold");
+  $(".content:nth-child(2)").addClass("show");
+
   $(".icon").click(function(){
     $(".icon").removeClass("icon_bold");
     $(this).addClass("icon_bold");
